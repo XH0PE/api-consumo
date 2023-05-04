@@ -11,6 +11,6 @@ async function getMethod(){
     if(data){
         console.log(data);
         txtDeslizar.innerHTML = data.joke;
-        txtDeslizar.classList.add(".deslizar");
+        txtDeslizar.classList.add("deslizar");
     }
 }
